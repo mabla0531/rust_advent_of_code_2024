@@ -31,5 +31,6 @@ fn main() {
         total += (list1[i] as i32 - list2[i] as i32).abs();
     }
 
-    println!("total: {}", total);
+    assert_eq!(total, 11);
+    println!("Complete!");
 }
